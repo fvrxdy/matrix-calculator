@@ -1,0 +1,67 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  background-color: #fff;
+  color: #0e0f0f;
+}
+.mariks {
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+  color: #36bebe;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: #36bebe;
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+textarea {
+  background-color: #d9d9d9;
+  width: 200px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.operations {
+  font-family: "Poppins", sans-serif;
+  display: ruby-base-container;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #36bebe;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.pengurangan {
+  display: ruby-base-container;
+  background-color: #d9d9d9;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.pengurangan {
+  display: ruby-base-container;
+  background-color: #d9d9d9;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.navigasi {
+  text-align: center;
+}

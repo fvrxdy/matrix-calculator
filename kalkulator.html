@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>kalkulator matriks</title>
+    <link rel="stylesheet" href="kalkulator.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,700;1,700&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navigasi">
+      <span
+        style="
+          color: black;
+          font-size: 48px;
+          font-family: Poppins;
+          font-weight: 800;
+          word-wrap: break-word;
+        "
+        >KALKULATOR </span
+      ><span
+        style="
+          color: #5ec4fd;
+          font-size: 48px;
+          font-family: Poppins;
+          font-weight: 800;
+          word-wrap: break-word;
+        "
+        >MATRIKS</span
+      >
+    </div>
+    <div class="calculator">
+      <div class="input-matrices">
+        <h2>Matrix A</h2>
+        <textarea
+          id="matrixA"
+          rows="4"
+          cols="10"
+          placeholder="Masukkan Matriks A"
+        ></textarea>
+
+        <h2>Matrix B</h2>
+        <textarea
+          id="matrixB"
+          rows="4"
+          cols="10"
+          placeholder="Masukkan Matriks B"
+        ></textarea>
+      </div>
+      
+      <div class="operations">
+        <button onclick="addMatrices()">PENJUMLAHAN</button>
+        <button class="pengurangan" onclick="subtractMatrices()">
+          PENGURANGAN
+        </button>
+        <button onclick="multiplyMatrices()">PERKALIAN</button>
+      </div>
+
+      <div class="result">
+        <h2>Hasil:</h2>
+        <textarea id="result" rows="4" cols="10" readonly></textarea>
+      </div>
+    </div>
+
+    <script src="kalkulator.js"></script>
+  </body>
+</html>
